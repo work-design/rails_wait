@@ -18,5 +18,5 @@ Gem::Specification.new do |spec|
     'README.md'
   ]
 
-  spec.add_dependency 'rails', '~> 1.2'
+  spec.add_dependency 'rails_com', '~> 1.2'
 end
