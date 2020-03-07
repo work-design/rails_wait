@@ -7,7 +7,7 @@ module RailsWait::WaitList
     attribute :wait_items_count, :integer, default: 0
 
     belongs_to :address
-    belongs_to :wait_taxon
+    belongs_to :wait_taxon, optional: true
     belongs_to :organ, optional: true
     has_many :wait_items, dependent: :destroy
   end
