@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/work-design/rails_com.git
-  revision: 3e9af33c298f9af93166316bedcc073c294a18e9
+  revision: fe75239d0eeaf381ef6ba8173bfaa8636ba5ccbc
   specs:
     rails_com (1.2.9)
       default_where (~> 2.2)
@@ -143,7 +143,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     timers (4.3.0)
-    tzinfo (1.2.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     websocket-driver (0.7.1)
       websocket-extensions (>= 0.1.0)
