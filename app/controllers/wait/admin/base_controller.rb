@@ -1,4 +1,3 @@
-class Wait::Admin::BaseController < RailsWait.config.admin_controller.constantize
+class Wait::Admin::BaseController < AdminController
 
-
-end
+end unless defined? Wait::Admin::BaseController
