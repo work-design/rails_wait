@@ -100,7 +100,7 @@ GEM
       activesupport (>= 4.2.0)
     http-2-next (0.3.0)
     http-form_data (2.3.0)
-    httpx (0.10.0)
+    httpx (0.10.2)
       http-2-next (>= 0.1.2)
       timers
     i18n (1.8.5)
