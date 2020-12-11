@@ -1,16 +1,4 @@
-<table class="table is-hoverable is-fullwidth">
-  <thead>
-    <tr>
-      <th class="six wide">
-        <%= link_to t('.edit'), edit_admin_wait_taxon_path(@wait_taxon), class: 'ui mini blue right floated button', remote: true %>
-      </th>
-      <th class="ten wide"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="has-text-right"><%= WaitTaxon.human_attribute_name(:name) %></td>
-      <td><%= @wait_taxon.name %></td>
-    </tr>
-  </tbody>
-</table>
+<tr>
+  <td class="has-text-right"><%= WaitTaxon.human_attribute_name(:name) %></td>
+  <td><%= @wait_taxon.name %></td>
+</tr>

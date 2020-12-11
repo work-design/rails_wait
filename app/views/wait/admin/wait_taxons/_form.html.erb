@@ -1,5 +1,2 @@
-<%= form_with model: [:admin, @wait_taxon] do |f| %>
-  <%= render 'shared/error_messages', target: @wait_taxon %>
-  <%= f.text_field :name %>
-  <%= f.submit %>
-<% end %>
+<%= render 'shared/error_messages', target: @wait_taxon %>
+<%= f.text_field :name %>
