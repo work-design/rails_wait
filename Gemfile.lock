@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/work-design/rails_com.git
-  revision: 8662869e4c73c2d351030c10b5248bd4c31250c2
+  revision: 2de290bb9fe0373dc8139db04d3621866cafe61f
   specs:
     rails_com (1.2.9)
       acme-client
@@ -162,7 +162,7 @@ GEM
       method_source
       rake (>= 0.8.7)
       thor (~> 1.0)
-    rake (13.0.1)
+    rake (13.0.3)
     ruby2_keywords (0.0.2)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -174,7 +174,7 @@ GEM
     sqlite3 (1.4.2)
     thor (1.0.1)
     timers (4.3.2)
-    tzinfo (2.0.3)
+    tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
