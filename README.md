@@ -1,5 +1,6 @@
 # RailsWait
-Short description and motivation.
+
+适用于预约及排队场景。
 
 ## Usage
 How to use my plugin.

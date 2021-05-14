@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/work-design/rails_wait'
   spec.summary = 'Summary of RailsWait.'
   spec.description = 'Description of RailsWait.'
-  spec.license = 'LGPL-3.0'
+  spec.license = 'MIT'
 
   spec.files = Dir[
     '{app,config,db,lib}/**/*',
