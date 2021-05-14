@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
-  scope :admin, module: 'wait/admin', as: :admin, defaults: { namespace: 'admin', business: 'wait' } do
-    resources :wait_taxons
+  namespace :wait, defaults: { business: 'wait' } do
+    namespace :admin, defaults: { namespace: 'admin' } do
+      resources :wait_taxons
+    end
   end
 
 end
