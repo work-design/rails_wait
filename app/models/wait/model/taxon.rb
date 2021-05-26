@@ -1,12 +1,12 @@
 module Wait
-  module Model::WaitTaxon
+  module Model::Taxon
     extend ActiveSupport::Concern
 
     included do
       attribute :name, :string
 
       belongs_to :organ, optional: true
-      has_many :wait_lists
+      has_many :lists
     end
 
 

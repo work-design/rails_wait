@@ -1,14 +1,15 @@
 module Wait
-  module Model::WaitItem
+  module Model::Item
     extend ActiveSupport::Concern
 
     included do
-      acts_as_list scope: :wait_list_id
+      acts_as_list scope: :list_id
+
       attribute :state, :string
       attribute :position, :integer
 
       belongs_to :user
-      belongs_to :wait_list, counter_cache: true
+      belongs_to :list, counter_cache: true
 
       after_save_commit :to_notice, if: -> { saved_change_to_volunteer_id? && volunteer }
       acts_as_notify(
@@ -19,7 +20,7 @@ module Wait
     end
 
     def address
-      "#{wait_list.address.content}"
+      "#{list.address.content}"
     end
 
     def to_notice
