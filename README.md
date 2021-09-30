@@ -1,5 +1,9 @@
 # RailsWait
 
+[![测试](https://github.com/work-design/rails_wait/actions/workflows/test.yml/badge.svg)](https://github.com/work-design/rails_wait/actions/workflows/test.yml)
+[![Docker构建](https://github.com/work-design/rails_wait/actions/workflows/cd.yml/badge.svg)](https://github.com/work-design/rails_wait/actions/workflows/cd.yml)
+[![Gem](https://github.com/work-design/rails_wait/actions/workflows/gempush.yml/badge.svg)](https://github.com/work-design/rails_wait/actions/workflows/gempush.yml)
+
 适用于预约及排队场景。
 
 ## Usage
