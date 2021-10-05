@@ -12,7 +12,7 @@ module Wait
       belongs_to :wait_for, polymorphic: true, optional: true
       belongs_to :taxon, optional: true
       belongs_to :organ, optional: true
-      has_many :items, dependent: :destroy
+      has_many :items, dependent: :destroy_async
     end
 
   end
