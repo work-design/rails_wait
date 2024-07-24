@@ -3,7 +3,7 @@ module Wait
     extend ActiveSupport::Concern
 
     included do
-      acts_as_list scope: :list_id
+      positioned on: :list_id
 
       attribute :state, :string
       attribute :position, :integer
